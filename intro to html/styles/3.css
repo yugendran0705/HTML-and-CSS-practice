@@ -1,7 +1,6 @@
-<style>
 
     p{
-        font-family: Arial;
+        font-family: Poppins;
         margin-top: 0px;
         margin-bottom: 0px;
     }
@@ -47,24 +46,3 @@
         text-decoration: underline;
         cursor: pointer;
     }
-</style>
-<p class="video-title">
-    Hi This is Yugendran. Tech talk and AI with google.
-</p>
-
-<p class="video-stats">
-    3.4M views &#183; 6 months ago
-</p>
-
-<p class="video-channel">
-    Marques Brownlee &#10003;
-</p>
-
-<p class="video-description">
-    Yesterday I was driving home from work late at night in the rain and this song came on;
-    Put on this song and go for a drive.
-</p>
-
-<p class="apple-text">
-    Shop early Black Friday deals. <span class="shop-link">Shop now &gt;</span>
-</p>
