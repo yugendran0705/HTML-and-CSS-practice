@@ -10,6 +10,7 @@
     position: fixed;
     background-color: white;
     border-bottom: 1px solid rgb(218, 218, 218);
+    z-index: 100;
 }
 .left-section{
     max-width: 190px;
@@ -34,7 +35,7 @@
 .hamburger-icon{
     height: 24px;
     background-color: transparent;
-    margin-left: 18px;
+    margin-left: 24px;
     margin-right: 18px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -56,6 +57,47 @@
     margin-left: -1px;
     padding-left: 6px;
 }
+
+.search-button, 
+.mic-button,
+.upload-button,
+.profile-button,
+.notification-button{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button .tooltip,
+.mic-button .tooltip,
+.upload-button .tooltip,
+.profile-button .tooltip,
+.notification-button .tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 9px 7px;
+    border-radius: 6px;
+    bottom: -40px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.search-button:hover .tooltip,
+.mic-button:hover .tooltip,
+.upload-button:hover .tooltip,
+.profile-button:hover .tooltip,
+.notification-button:hover .tooltip{
+    opacity: 1;
+}
+
 .search-bar{
     height: 36px;
     width: 0;
@@ -97,12 +139,13 @@
     fill:currentColor;
 }
 .profile-icon{
-    height: 36px;
+    height: 32px;
     border-radius: 36px;
     border: 0;
 }
 .profile-button{
-    border-radius:36px;
+    border-radius:32px;
+    margin-left: 4px;
     border: none;
     background-color: rgb(248, 248, 248);
 }
@@ -110,11 +153,31 @@
     height: 40px;
     width: 40px;
     padding-top: 4px;
+    margin-left: 4px;
     border-radius:35px;
     border: none;
     background-color: rgb(248, 248, 248);
+    position: relative;
 }
 .notification-icon{
     height: 24px;
     fill:currentColor;
+}
+.notification-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 20px;
+    height: 18px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: rgb(216, 27, 27);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
 }

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/header.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="left-section">
             <img class="hamburger-icon" src="pics/hamburger-button.png">
             <img class="youtube-logo" src="pics/Youtube-Logo-1.png">
@@ -22,30 +22,60 @@
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-button">
                 <img class="search-icon" src="pics/search-icon.png">
+                <div class="tooltip">Search</div>
             </button>   
             <button class="mic-button">
                 <img class="mic-icon" src="pics/mic-icon.png">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
             <button class="upload-button">
                 <img class="upload-icon" src="pics/upload-video-icon.png">
+                <div class="tooltip">Upload</div>
             </button>
             <button class="notification-button">
                 <img class="notification-icon" src="pics/notification-icon.png">
+                <div class="tooltip">Notifications</div>
+                <div class="notification-count">3+</div>
             </button>
             <button class="profile-button">
                 <img class="profile-icon" src="channel-pics/mychannel.jpg">
+                <div class="tooltip">Profile</div>
             </button>
         </div>
-    </div>
-    <div class="sidebar">
-        sidebar
-    </div>
-    <div class="video-grid">
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="pics/home.png">
+            <div class="sidebar-text">Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="pics/explore.png">
+            <div class="sidebar-text">Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="pics/subscription.png">
+            <div class="sidebar-text">Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="pics/originals.png">
+            <div class="sidebar-text">Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="pics/music.png">
+            <div class="sidebar-text">Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="pics/library.png">
+            <div class="sidebar-text">Library</div>
+        </div>
+    </nav>
+    <section class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-pics/thumbnail-1.png">
+                <div class="video-time">8:53</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -62,6 +92,7 @@
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-pics/thumbnail-2.jpg">
+                <div class="video-time">4:43</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -77,6 +108,7 @@
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-pics/thumbnail-1.png">
+                <div class="video-time">8:53</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -93,6 +125,7 @@
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-pics/thumbnail-2.jpg">
+                <div class="video-time">4:43</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -108,6 +141,7 @@
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-pics/thumbnail-1.png">
+                <div class="video-time">8:53</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -124,6 +158,106 @@
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-pics/thumbnail-2.jpg">
+                <div class="video-time">4:43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pics/channel-2.jpg"> 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Badass</p>
+                    <p class="video-author">Sony</p>
+                    <p class="video-stats">396 K views &#183; 6 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-pics/thumbnail-1.png">
+                <div class="video-time">8:53</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pics/channel-1.jpg"> 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Google Coding Interview with a Meta Intern</p>
+                    <p class="video-author">NeetCode</p>
+                    <p class="video-stats">396 K views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-pics/thumbnail-2.jpg">
+                <div class="video-time">4:43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pics/channel-2.jpg"> 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Badass</p>
+                    <p class="video-author">Sony</p>
+                    <p class="video-stats">396 K views &#183; 6 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-pics/thumbnail-1.png">
+                <div class="video-time">8:53</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pics/channel-1.jpg"> 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Google Coding Interview with a Meta Intern</p>
+                    <p class="video-author">NeetCode</p>
+                    <p class="video-stats">396 K views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-pics/thumbnail-2.jpg">
+                <div class="video-time">4:43</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pics/channel-2.jpg"> 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Badass</p>
+                    <p class="video-author">Sony</p>
+                    <p class="video-stats">396 K views &#183; 6 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-pics/thumbnail-1.png">
+                <div class="video-time">8:53</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pics/channel-1.jpg"> 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Google Coding Interview with a Meta Intern</p>
+                    <p class="video-author">NeetCode</p>
+                    <p class="video-stats">396 K views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-pics/thumbnail-2.jpg">
+                <div class="video-time">4:43</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -137,6 +271,6 @@
             </div>
         </div>
         
-    </div>
+    </section>
 </body>
 </html>
